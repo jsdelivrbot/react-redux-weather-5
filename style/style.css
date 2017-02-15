@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif !important;
+  background: #f2f2f2 !important;
+}
+
+.header {
+  text-align: center;
+  padding: 50px;
+}
+
+.header .logo {
+  font-weight: 700;
+}
+
+td, th {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+svg {
+  height: 150px;
+}
+
+td:first-of-type, td:first-of-type > div {
+  height: 200px;
+  width: 200px;
+} 
